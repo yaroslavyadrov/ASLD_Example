@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AccountImageView">
+        <attr name="wallet" format="boolean" />
+        <attr name="balance" format="boolean" />
+        <attr name="addCard" format="boolean" />
+        <attr name="nothing" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="FancyImageView">
+        <attr name="add" format="boolean" />
+        <attr name="forward" format="boolean" />
+    </declare-styleable>
+</resources>

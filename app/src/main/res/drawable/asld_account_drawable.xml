@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/balance"
+        android:drawable="@drawable/ic_account_balance"
+        app:balance="true" />
+
+    <item
+        android:id="@+id/wallet"
+        android:drawable="@drawable/ic_account_wallet"
+        app:wallet="true" />
+
+    <item
+        android:id="@+id/add_card"
+        android:drawable="@drawable/ic_account_wallet"
+        app:addCard="true" />
+
+    <item
+        android:id="@+id/not_selected"
+        android:drawable="@color/transparent"
+        app:nothing="true" />
+
+    <item
+        android:id="@+id/default_state"
+        android:drawable="@color/transparent" />
+
+    <transition
+        android:drawable="@drawable/av_nothing_to_balance"
+        android:fromId="@id/not_selected"
+        android:toId="@id/balance" />
+
+    <transition
+        android:drawable="@drawable/av_balance_to_nothing"
+        android:fromId="@id/balance"
+        android:toId="@id/not_selected" />
+
+    <transition
+        android:drawable="@drawable/av_nothing_to_wallet"
+        android:fromId="@id/not_selected"
+        android:toId="@id/wallet" />
+
+    <transition
+        android:drawable="@drawable/av_wallet_to_nothing"
+        android:fromId="@id/wallet"
+        android:toId="@id/not_selected" />
+
+    <transition
+        android:drawable="@drawable/av_nothing_to_add_card"
+        android:fromId="@id/not_selected"
+        android:toId="@id/add_card" />
+
+    <transition
+        android:drawable="@drawable/av_add_card_to_nothing"
+        android:fromId="@id/add_card"
+        android:toId="@id/not_selected" />
+
+</animated-selector>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../private/var/folders/t3/20c41m3j7vlb7cv8f5ps14pw0000gn/T/drawable-temp/fake_of_asld_account_drawable.xml" value="0.297" />
+        <entry key="../../../../private/var/folders/t3/20c41m3j7vlb7cv8f5ps14pw0000gn/T/drawable-temp/fake_of_asld_fancy_drawable.xml" value="0.297" />
+        <entry key="../../../../private/var/folders/t3/20c41m3j7vlb7cv8f5ps14pw0000gn/T/drawable-temp/fake_of_asld_gender_drawable1.xml" value="0.297" />
+        <entry key="app/src/main/res/drawable/av_nothing_to_balance.xml" value="0.297" />
+        <entry key="app/src/main/res/drawable/av_nothing_to_wallet.xml" value="0.25" />
+        <entry key="app/src/main/res/drawable/avd_anim.xml" value="0.297" />
+        <entry key="app/src/main/res/drawable/from_forward_to_add.xml" value="0.297" />
+        <entry key="app/src/main/res/drawable/ic_account_balance.xml" value="0.297" />
+        <entry key="app/src/main/res/drawable/ic_account_wallet.xml" value="0.297" />
+        <entry key="app/src/main/res/drawable/ic_add.xml" value="0.297" />
+        <entry key="app/src/main/res/drawable/ic_add_card.xml" value="0.297" />
+        <entry key="app/src/main/res/drawable/ic_arrow_forward.xml" value="0.297" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.20856322010398276" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8 zulu" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

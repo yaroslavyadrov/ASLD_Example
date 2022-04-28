@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/add"
+        android:drawable="@drawable/ic_add"
+        app:add="true" />
+
+    <item
+        android:id="@+id/forward"
+        android:drawable="@drawable/ic_arrow_forward"
+        app:forward="true" />
+
+    <item
+        android:id="@+id/default_state"
+        android:drawable="@color/transparent" />
+
+    <transition
+        android:drawable="@drawable/from_add_to_forward"
+        android:fromId="@id/add"
+        android:toId="@id/forward" />
+
+    <transition
+        android:drawable="@drawable/from_forward_to_add"
+        android:fromId="@id/forward"
+        android:toId="@id/add" />
+
+</animated-selector>

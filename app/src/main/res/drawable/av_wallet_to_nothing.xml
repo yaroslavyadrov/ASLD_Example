@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_account_wallet">
+    <target
+        android:name="wallet_drawable_group"
+        android:animation="@animator/scale_out" />
+
+    <target
+        android:name="wallet_drawable_vector"
+        android:animation="@animator/fade_out" />
+</animated-vector>
